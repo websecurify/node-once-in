@@ -1,6 +1,6 @@
 {
   "name": "once-in",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run function once in seconds, minutes and hours.",
   "main": "lib/index.js",
   "scripts": {
