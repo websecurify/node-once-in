@@ -1,0 +1,32 @@
+{
+  "name": "once-in",
+  "version": "1.0.0",
+  "description": "Run function once in seconds, minutes and hours.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nodeunit tests/",
+    "build": "coffee -m -o lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websecurify/node-once-in.git"
+  },
+  "keywords": [
+    "decorator",
+    "once",
+    "time",
+    "seconds",
+    "minutes",
+    "hours"
+  ],
+  "author": "Websecurify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websecurify/node-once-in/issues"
+  },
+  "homepage": "https://github.com/websecurify/node-once-in#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "nodeunit": "^0.9.1"
+  }
+}
