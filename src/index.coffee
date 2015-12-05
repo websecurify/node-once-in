@@ -6,11 +6,11 @@ module.exports = (func, seconds=0, minutes=0, hours=0) ->
         unless last?
             last = Date.now()
 
-            return func.apply(func, arguments)
+            return func.apply(@, arguments)
 
         now = Date.now()
         delta = now - last
         last = now
 
         return if delta < interval
-        return func.apply(func, arguments)
+        return func.apply(@, arguments)
